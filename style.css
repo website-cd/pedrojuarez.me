@@ -1,0 +1,212 @@
+body {
+    background-color: #222831;
+   }
+.main-menu {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin: 20px;
+}
+
+menu {
+    display: flex;
+    flex-direction: row;
+    }
+
+a.logo {
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+ul.menu-items {
+    gap: 30px;
+    list-style: none;
+}
+
+a.menu-link {
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 30px;
+
+}
+
+
+.headline {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: flex-start;
+margin: 100px 80px 15px 80px;
+}
+
+h1.home-text {
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 200;
+
+}
+
+span.cloud {
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Inter', sans-serif;
+    color: #0092CA;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+p.cloud {
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+span.blue-slash {
+    color: #0092CA;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  
+  a:active { 
+    text-decoration: none; 
+  }
+
+  a:hover {
+    color: #0092CA;
+  }
+  
+  .logos-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 60px;
+}
+
+.logo-linkedin {
+    margin: 15px;
+}
+
+.logo-github {
+    margin: 15px;
+}
+
+svg {
+    fill:#fff;
+}
+
+svg:hover {
+    fill: #0092CA;
+  }
+
+.main-title {
+    display: flex;
+    margin: 60px 80px 20px 80px;
+}
+
+span.blue-slash-title {
+    color: #0092CA;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 200;
+    padding-right: 15px;
+}
+
+h2.link-title {
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Inter', sans-serif;
+    color: #0092CA;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+h3.heading-blog {
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Inter', sans-serif;
+    color: #0092CA;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.links {
+    margin: 60px 80px 20px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+p.social {
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline;
+
+}
+
+
+img.social-logos {
+    width: 35px;
+    filter: invert(100%);
+}
+
+.social {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .social-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .social-logos {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+
+  .linkedin {
+    margin-top: 25px;
+}
+
+.medium {
+    margin-top: 25px;
+}
+
+.blog-text {
+        font-family: 'Gabarito', sans-serif;
+        font-family: 'Inter', sans-serif;
+        color: #fff;
+        font-size: 17px;
+        line-height: 1.6;
+        font-weight: 200;
+}  
+
+.content {
+    display: flex;
+    margin: 80px 80px;
+    flex-direction: column;
+}
